@@ -1,0 +1,285 @@
+Domain in use: 8-puzzle
+Algorithm in use: DFS
+Starting state: 806547231
+Action taken: r
+Current state: 860547231
+Action taken: d
+Current state: 867540231
+Action taken: l
+Current state: 867504231
+Action taken: d
+Current state: 867534201
+Action taken: r
+Current state: 867534210
+Action taken: u
+Current state: 867530214
+Action taken: l
+Current state: 867503214
+Action taken: d
+Current state: 867513204
+Action taken: r
+Current state: 867513240
+Action taken: u
+Current state: 867510243
+Action taken: l
+Current state: 867501243
+Action taken: d
+Current state: 867541203
+Action taken: r
+Current state: 867541230
+Action taken: l
+Current state: 867541023
+Action taken: u
+Current state: 867041523
+Action taken: u
+Current state: 067841523
+Action taken: r
+Current state: 607841523
+Action taken: r
+Current state: 670841523
+Action taken: d
+Current state: 671840523
+Action taken: l
+Current state: 671804523
+Action taken: d
+Current state: 671824503
+Action taken: r
+Current state: 671824530
+Action taken: u
+Current state: 671820534
+Action taken: l
+Current state: 671802534
+Action taken: d
+Current state: 671832504
+Action taken: r
+Current state: 671832540
+Action taken: u
+Current state: 671830542
+Action taken: l
+Current state: 671803542
+Action taken: d
+Current state: 671843502
+Action taken: r
+Current state: 671843520
+Action taken: l
+Current state: 671843052
+Action taken: u
+Current state: 671043852
+Action taken: u
+Current state: 071643852
+Action taken: r
+Current state: 701643852
+Action taken: r
+Current state: 710643852
+Action taken: d
+Current state: 713640852
+Action taken: l
+Current state: 713604852
+Action taken: d
+Current state: 713654802
+Action taken: r
+Current state: 713654820
+Action taken: u
+Current state: 713650824
+
+40+ expansions required for solution. Sleep mode
+Total algorithm time: 1.388 seconds
+Total number of nodes expanded: 12057
+Solution path length: 11273
+Solution state: 012345678
+
+Solution path too long. Not printing.
+
+Domain in use: Water Jug
+Algorithm in use: DFS
+Starting state: 000
+Action taken: f 12
+Current state: 1200
+Action taken: f 8
+Current state: 1280
+Action taken: f 3
+Current state: 1283
+Action taken: e 12
+Current state: 083
+Action taken: e 8
+Current state: 003
+Action taken: f 12
+Current state: 1203
+Action taken: 12 8
+Current state: 483
+Action taken: e 8
+Current state: 403
+Action taken: 12 8
+Current state: 043
+Action taken: f 12
+Current state: 1243
+Action taken: 12 8
+Current state: 883
+Action taken: e 8
+Current state: 803
+Action taken: 3 12
+Current state: 800
+Action taken: f 8
+Current state: 880
+Action taken: e 12
+Current state: 080
+Action taken: 8 3
+Current state: 053
+Action taken: f 12
+Current state: 1253
+Action taken: 12 8
+Current state: 983
+Action taken: e 8
+Current state: 903
+Action taken: 12 8
+Current state: 183
+Total algorithm time: 0.034 seconds
+Total number of nodes expanded: 20
+Solution path length: 20
+Solution state: 183
+
+Solution Path:
+Configuration: 000
+Action Taken: f 12
+Configuration: 1200
+Action Taken: f 8
+Configuration: 1280
+Action Taken: f 3
+Configuration: 1283
+Action Taken: e 12
+Configuration: 083
+Action Taken: e 8
+Configuration: 003
+Action Taken: f 12
+Configuration: 1203
+Action Taken: 12 8
+Configuration: 483
+Action Taken: e 8
+Configuration: 403
+Action Taken: 12 8
+Configuration: 043
+Action Taken: f 12
+Configuration: 1243
+Action Taken: 12 8
+Configuration: 883
+Action Taken: e 8
+Configuration: 803
+Action Taken: 3 12
+Configuration: 800
+Action Taken: f 8
+Configuration: 880
+Action Taken: e 12
+Configuration: 080
+Action Taken: 8 3
+Configuration: 053
+Action Taken: f 12
+Configuration: 1253
+Action Taken: 12 8
+Configuration: 983
+Action Taken: e 8
+Configuration: 903
+Action Taken: 12 8
+Configuration: 183
+
+
+Domain in use: Water Jug
+Algorithm in use: IDS
+Starting state: 000
+Action taken: f 12
+Current state: 1200
+Action taken: f 8
+Current state: 080
+Action taken: f 3
+Current state: 003
+Action taken: e 3
+Current state: 000
+Action taken: 12 3
+Current state: 000
+Action taken: 12 8
+Current state: 000
+Action taken: 3 12
+Current state: 000
+Action taken: 3 8
+Current state: 000
+Action taken: 8 12
+Current state: 000
+Action taken: 8 3
+Current state: 000
+Action taken: f 12
+Current state: 1200
+Action taken: f 8
+Current state: 1280
+Action taken: f 3
+Current state: 1203
+Action taken: e 12
+Current state: 000
+Action taken: e 3
+Current state: 1200
+Action taken: 12 3
+Current state: 903
+Action taken: 12 8
+Current state: 480
+Action taken: 3 12
+Current state: 1200
+Action taken: 3 8
+Current state: 1200
+Action taken: 8 12
+Current state: 1200
+Action taken: 8 3
+Current state: 1200
+Action taken: f 8
+Current state: 080
+Action taken: f 12
+Current state: 1280
+Action taken: f 3
+Current state: 083
+Action taken: e 8
+Current state: 000
+Action taken: e 3
+Current state: 080
+Action taken: 12 3
+Current state: 080
+Action taken: 12 8
+Current state: 080
+Action taken: 3 12
+Current state: 080
+Action taken: 3 8
+Current state: 080
+Action taken: 8 12
+Current state: 800
+Action taken: 8 3
+Current state: 053
+Action taken: f 3
+Current state: 003
+Action taken: f 12
+Current state: 1203
+Action taken: f 8
+Current state: 083
+Action taken: 12 3
+Current state: 003
+Action taken: 12 8
+Current state: 003
+Action taken: 3 12
+Current state: 000
+Action taken: 3 8
+Current state: 030
+Action taken: 8 12
+Current state: 003
+
+40+ expansions required for solution. Sleep mode
+Total algorithm time: 0.081 seconds
+Total number of nodes expanded: 275
+Solution path length: 3
+Solution state: 183
+
+Solution Path:
+Configuration: 000
+Action Taken: f 12
+Configuration: 1200
+Action Taken: 12 3
+Configuration: 903
+Action Taken: 12 8
+Configuration: 183
+
+
+Press any key to continue . . .
