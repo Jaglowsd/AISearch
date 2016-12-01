@@ -1,0 +1,206 @@
+Domain: Traveling Salesman Route-Finding
+Algorithm: A* Search
+Starting state: In Arad
+
+Total algorithm time: 0.005 seconds
+Total number of nodes expanded: 11
+Solution path length: 4
+
+Solution Path:
+State:  In Arad
+State:  In Sibiu
+State:  In Rimnicu Vilcea
+State:  In Pitesti
+State:  In Bucharest
+
+
+Domain: Monkeys and Bananas
+Algorithm: A* Beam Search
+Starting state: Monkey located in (0,0) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding nothing.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding nothing.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding nothing.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding nothing.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding nothing.
+Action taken: Picked up chair
+Current state: Monkey located in (1,0) holding the chair.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding nothing.
+Action taken: Picked up stick
+Current state: Monkey located in (1,1) holding the stick.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding nothing.
+Action taken: Picked up stick
+Current state: Monkey located in (1,1) holding the stick.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding the chair.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding the chair.
+Action taken: Dropped chair
+Current state: Monkey located in (1,0) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding the chair.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding the chair.
+Action taken: Dropped chair
+Current state: Monkey located in (0,0) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding the chair.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding the chair.
+Action taken: Dropped chair
+Current state: Monkey located in (1,1) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding the stick.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding the stick.
+Action taken: Dropped stick
+Current state: Monkey located in (1,1) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding the stick.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding the stick.
+Action taken: Dropped stick
+Current state: Monkey located in (1,1) holding nothing.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding the chair.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding the chair.
+Action taken: Dropped chair
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (0,1)
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (1,0)
+Current state: Monkey located in (1,0) holding nothing.
+Action taken: Picked up chair
+Current state: Monkey located in (0,0) holding the chair.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding the stick.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding the stick.
+Action taken: Dropped stick
+Current state: Monkey located in (0,1) holding nothing.
+Action taken: Moved to (0,0)
+Current state: Monkey located in (0,0) holding the stick.
+Action taken: Moved to (1,1)
+Current state: Monkey located in (1,1) holding the stick.
+Action taken: Dropped stick
+Current state: Monkey located in (0,1) holding nothing.
+
+40+ expansions required for solution. Sleep mode
+Total algorithm time: 0.124 seconds
+Total number of nodes expanded: 208
+Solution path length: 11
+
+Solution Path:
+State:  Monkey located in (0,0) holding nothing.
+Action:  Moved to (1,0)
+State:  Monkey located in (1,0) holding nothing.
+Action:  Picked up chair
+State:  Monkey located in (1,0) holding the chair.
+Action:  Moved to (0,0)
+State:  Monkey located in (0,0) holding the chair.
+Action:  Moved to (0,1)
+State:  Monkey located in (0,1) holding the chair.
+Action:  Dropped chair
+State:  Monkey located in (0,1) holding nothing.
+Action:  Moved to (1,1)
+State:  Monkey located in (1,1) holding nothing.
+Action:  Picked up stick
+State:  Monkey located in (1,1) holding the stick.
+Action:  Moved to (0,1)
+State:  Monkey located in (0,1) holding the stick.
+Action:  Swung stick
+State:  Monkey located in (0,1) holding the stick.
+Action:  Dropped stick
+State:  Monkey located in (0,1) holding nothing.
+Action:  Picked up bananas
+State:  Monkey located in (0,1) holding bananas.
+
+
+Domain: Wolf, Goat, and Cabbage
+Algorithm: A* Beam Search
+Starting state: B,W,G,C |
+Action taken: Moved boat with goat right.
+Current state: W,C | G,B
+Action taken: Moved boat with goat left.
+Current state: B,W,G,C |
+Action taken: Moved empty boat left.
+Current state: B,W,C | G
+Action taken: Moved boat with wolf right.
+Current state: C | W,B,G
+Action taken: Moved boat with cabbage right.
+Current state: W | G,C,B
+Action taken: Moved empty boat right.
+Current state: W,C | G,B
+Action taken: Moved boat with wolf left.
+Current state: B,W,C | G
+Action taken: Moved boat with goat left.
+Current state: G,C,B | W
+Action taken: Moved boat with cabbage left.
+Current state: B,W,C | G
+Action taken: Moved boat with goat left.
+Current state: W,B,G | C
+Action taken: Moved boat with cabbage right.
+Current state: G | B,W,C
+Action taken: Moved boat with goat right.
+Current state: C | W,B,G
+Action taken: Moved boat with wolf right.
+Current state: G | B,W,C
+Action taken: Moved boat with goat right.
+Current state: W | G,C,B
+Action taken: Moved boat with wolf left.
+Current state: W,B,G | C
+Action taken: Moved boat with cabbage left.
+Current state: G,C,B | W
+Action taken: Moved empty boat left.
+Current state: G,B | W,C
+Action taken: Moved boat with wolf left.
+Current state: W,B,G | C
+Action taken: Moved boat with cabbage left.
+Current state: G,C,B | W
+Action taken: Moved empty boat left.
+Current state: G,B | W,C
+Action taken: Moved boat with goat right.
+Current state:  | B,W,G,C
+Action taken: Moved empty boat right.
+Current state: G | B,W,C
+Action taken: Moved boat with goat right.
+Current state:  | B,W,G,C
+Action taken: Moved empty boat right.
+Current state: G | B,W,C
+
+Total algorithm time: 0.056 seconds
+Total number of nodes expanded: 24
+Solution path length: 7
+
+Solution Path:
+State:  B,W,G,C |
+Action:  Moved boat with goat right.
+State:  W,C | G,B
+Action:  Moved empty boat left.
+State:  B,W,C | G
+Action:  Moved boat with wolf right.
+State:  C | W,B,G
+Action:  Moved boat with goat left.
+State:  G,C,B | W
+Action:  Moved boat with cabbage right.
+State:  G | B,W,C
+Action:  Moved empty boat left.
+State:  G,B | W,C
+Action:  Moved boat with goat right.
+State:   | B,W,G,C
+
+
+Press any key to continue . . .
